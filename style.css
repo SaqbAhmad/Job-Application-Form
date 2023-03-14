@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+.Small_size{
+    font-size:22px;;
+}
+.container{
+     max-width: 900px;
+     margin:0 auto;
+}
+.Apply_container{
+    max-width:500px;
+    background-color:white;
+    padding:20px;
+    margin:0 auto;
+    margin-top:50px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+}
+label{
+    font-size: 18px;
+}
+.button_container{
+    display:flex;
+    justify-content:end;
+    margin-top:20px;
+}
+button{
+    background-color: red;
+    border:transparent solid 2px;
+    color:white;
+    padding:5px 10px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color:#ccc;
+    color:black;
+    border:2px solid red;
+    cursor: pointer;
+}
+input,select,textarea{
+    padding: 5px 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+select{
+    width: 213px;
+}
+input:focus{
+    outline-color: red;
+}
+
+
+.Alignment{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Apply_container h1{
+    margin-bottom:20px;
+}
+
+.utility{
+    margin-left: 20px;
+}
+.Alignment form_container .cwidth{
+    width:400px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <div class="Apply_container">
+            <h1>Job Application
+                <span class="Small_size">(web)</span>
+            </h1>
+            <form action="">
+                <div class="Alignment">
+                    <div class="form_container">
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname"><br><br>
+                    </div>
+                    <div class="form_container utility">
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+                    </div>
+                </div>
+                <div class="Alignment">
+                    <div class="form_container">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                    </div>
+                    <div class="form_container  utility">
+                        <label for="job_role">Job Role</label><br>
+                        <select name="job_role" id="job_role">
+                            <option value="">Select Job Role</option>
+                            <option value="fronted">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="full_stack">Full Stack</option>
+                            <option value="UI_UX Designer">UI_UX Designer</option>
+                        </select><br><br>
+                    </div>
+                </div>
+               
+                
+                <div class="form_container">
+                    <label for="address">Address</label><br>
+                    <textarea name="address" id="address" cols="50" rows="5"></textarea><br><br>
+                </div>
+                <div class="Alignment">
+                <div class="form_container">
+                    <label for="city">City</label><br>
+                    <input type="text" id="city" name="city"><br><br>
+                </div>
+                <div class="form_container utility">
+                    <label for="pincode">PinCode</label><br>
+                    <input type="number" id="pinncode" name="pincode"><br><br>
+                </div>
+            </div>
+            <div class="Alignment">
+                <div class="form_container">
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date" name="date" value="2022-01-12" style="width:213px"><br><br>
+                </div>
+                <div class="form_container utility">
+                    <label for="file">Upload Your CV </label><br>
+                    <input type="file" id="file" name="file" class="file" style="width:213px"><br><br>
+                </div>
+            </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+        </div>
+      </div>
+</body>
+</html>
